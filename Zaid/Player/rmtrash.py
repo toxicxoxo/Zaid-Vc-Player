@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from Zaid.filters import command, other_filters
 from Zaid.decorators import sudo_users_only, errors
 
-downloads = os.path.realpath("Zaid/downloads")
+downloads = os.path.realpath("HOMIES/downloads")
 raw = os.path.realpath(".")
 
 @Client.on_message(command(["rmd", "clear"]) & ~filters.edited)
